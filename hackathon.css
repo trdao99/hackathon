@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Nav1{
+    margin: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.Nav1 ul{
+    list-style: none;
+    text-align: center;
+    
+}
+.Nav1 li:hover{
+  opacity: 0.5;
+}
+.item{
+    
+    display: inline-block;
+    color:  #95a7c1;
+    margin: 30px;
+}
+.Item_1 {
+    position: relative;
+
+    right: 12%;
+    
+  }
+  .Item_9 {
+    position: relative;
+    left: 15%;
+
+    border-radius: 5px;
+  }
+
+  .div1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+  }
+  
+  .div2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-bottom: 50px;
+  }
+  .div2 div {
+    flex-basis: 30%;
+  }
+  .div2 span {
+    color: #95a7c1;
+    padding-left: 8px;
+  }
+  .div2 i {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+
+    color: #919fc2;
+  }
+
+  .div3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .Otem {
+    margin: 10px;
+    box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    
+  }
+  .div3 div:hover{
+    opacity: 0.5;
+  }
+  .div4 {
+    margin: 50px 0;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #fafbfd;
+    background-image: url(./testi-pet.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    
+  }
+  .div4 ::placeholder {
+    color: #7283ba;
+  }
+   
+  .div5 {
+    text-align: center;
+  }
+  .div5 p {
+    margin: 0 auto;
+  }
+  .div5 span {
+    background-color: #f0f9f2;
+    padding: 5px 10px;
+  }
+  .nav2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .nav2 li {
+    display: inline-block;
+    padding: 20px;
+   
+  }
+  .nav2 li:hover {
+    border-bottom: 1px solid #00b7d1;
+  }
+  .section2 {
+    display: flex;
+    flex-wrap: wrap;
+   width: 80%;
+   margin: 0 auto;
+    border-top: 1px dotted rgba(154, 151, 151, 0.452);
+    padding-bottom: 50px;
+  }
+
+  .section2 div {
+    
+    margin: 10px;
+  }
+  .Prj {
+    box-shadow: 0 0 20px -2px rgba(192, 177, 177, 0.2);
+    flex-basis: 25%;
+    padding:20px;
+  }
+  .pj {
+    display: flex;
+    
+  }
+  a {
+    color: #74859f;
+        text-decoration: none;
+    }
+  .Prj span {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #eaf2ff;
+    width: 30px;
+    color: #7fadff;
+  }
+  table{
+    padding: 20px;
+  }
+  
+  form input{
+    border-radius: 5px;
+    border: 1px solid #788ABF;
+    height: 30px;
+    width: 300px;
+    
+  }
+  form textarea{
+    border-radius: 5px;
+
+    width: 204%;
+    border: 1px solid #788ABF;}
+    form ::placeholder{
+        color: #788ABF;
+    }
+  
+  th, td{
+    padding: 5px;
+  }
+  th{
+    text-align: left;
+  }
+  .div6{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+   
+    align-items: center;
+    margin: auto;
+  }
+  .div7{
+    background-color: #1E3050;
+    color: #728095;
+    display: flex;
+    justify-content: space-around;
+  }
+  .div7 td,th{
+    padding: 15px;
+  }
+  
+  
